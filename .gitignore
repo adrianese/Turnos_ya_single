@@ -1,1 +1,4 @@
 .env
+database/backup_*.sql
+database/*.sql
+*.sql  # O más específico si tienes otros archivos SQL seguros

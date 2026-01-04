@@ -1,3 +1,120 @@
+# Apache Security Hardening - Turnos-Ya
+# Versión: 2.1 - Actualizado: 2026-01-04
+
+# Forzar HTTPS
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Headers de seguridad mejorados
+<IfModule mod_headers.c>
+    Header always set X-Frame-Options DENY
+    Header always set X-Content-Type-Options nosniff
+    Header always set X-XSS-Protection "1; mode=block"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://code.jquery.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; img-src 'self' data: https:; font-src 'self' https://fonts.gstatic.com; connect-src 'self'; frame-ancestors 'none';"
+</IfModule>
+
+# Control de caché para contenido sensible
+<FilesMatch "\.(php|inc|env)$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+    Header set Pragma "no-cache"
+    Header set Expires 0
+</FilesMatch>
+
+# Proteger archivos sensibles
+<FilesMatch "\.(htaccess|htpasswd|ini|log|sh|sql|conf)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Proteger directorios sensibles
+<Directory "vendor/">
+    Order Allow,Deny
+    Deny from all
+</Directory>
+
+<Directory "logs/">
+    Order Allow,Deny
+    Deny from all
+</Directory>
+
+<Directory "database/">
+    Order Allow,Deny
+    Deny from all
+</Directory>
+
+<Directory "test/">
+    Order Allow,Deny
+    Deny from all
+</Directory>
+
+# Proteger archivos de configuración específicos
+<Files ".env">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "composer.json">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+<Files "composer.lock">
+    Order Allow,Deny
+    Deny from all
+</Files>
+
+# Bloquear user agents sospechosos
+<RequireAll>
+    Require all granted
+    Require not expr "%{HTTP_USER_AGENT} =~ /libwww-perl|BBBike|wget|winhttp|HTTrack|clshttp|archiver|loader|email|harvest|extract|grab|miner|python-requests|Go-http-client/"
+</RequireAll>
+
+# Bloquear acceso directo a archivos PHP en directorios sensibles
+RewriteCond %{REQUEST_URI} ^/inc/ [NC]
+RewriteRule ^inc/.*$ - [F,L]
+
+RewriteCond %{REQUEST_URI} ^/vendor/ [NC]
+RewriteRule ^vendor/.*$ - [F,L]
+
+# Limitar tamaño de requests
+LimitRequestBody 10485760
+LimitRequestFields 100
+LimitRequestFieldSize 8190
+LimitRequestLine 8190
+
+# Configuración de PHP segura
+<IfModule mod_php.c>
+    php_value upload_max_filesize 5M
+    php_value post_max_size 8M
+    php_value max_execution_time 30
+    php_value max_input_time 30
+    php_value memory_limit 128M
+    php_flag display_errors off
+    php_flag log_errors on
+    php_value error_log /var/log/apache2/turnos_ya_error.log
+</IfModule>
+
+# Logs de seguridad
+LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\" \"%{X-Forwarded-For}i\"" security
+CustomLog /var/log/apache2/turnos_ya_security.log security
+
+# Configuración de directorio por defecto
+DirectoryIndex index.php index.html
+
+# Deshabilitar listado de directorios
+Options -Indexes -FollowSymLinks -MultiViews
+
+# Configuración de errores personalizada
+ErrorDocument 400 /error.php?code=400
+ErrorDocument 401 /error.php?code=401
+ErrorDocument 403 /error.php?code=403
+ErrorDocument 404 /error.php?code=404
+ErrorDocument 429 /error.php?code=429
+ErrorDocument 500 /error.php?code=500
+
 # Enable GZIP compression
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/plain
@@ -23,30 +140,6 @@
     ExpiresByType text/javascript "access plus 1 month"
     ExpiresByType application/javascript "access plus 1 month"
     ExpiresByType application/x-shockwave-flash "access plus 1 month"
+    ExpiresByType image/x-icon "access plus 1 year"
     ExpiresDefault "access plus 2 days"
 </IfModule>
-
-# Security headers
-<IfModule mod_headers.c>
-    Header always set X-Content-Type-Options nosniff
-    Header always set X-Frame-Options DENY
-    Header always set X-XSS-Protection "1; mode=block"
-    Header always set Referrer-Policy "strict-origin-when-cross-origin"
-    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self';"
-</IfModule>
-
-# Prevent access to sensitive files
-<Files ".env">
-    Order allow,deny
-    Deny from all
-</Files>
-
-<Files "composer.json">
-    Order allow,deny
-    Deny from all
-</Files>
-
-<Files "composer.lock">
-    Order allow,deny
-    Deny from all
-</Files>
