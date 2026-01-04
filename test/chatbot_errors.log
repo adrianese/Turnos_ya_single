@@ -1,0 +1,230 @@
+[29-Dec-2025 00:37:03 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:37:03 UTC] Time: 2025-12-29 00:37:03
+[29-Dec-2025 00:37:03 UTC] PHP Warning:  Undefined array key "email" in C:\apache\htdocs\Turnos-Ya\api\chatbot.php on line 35
+[29-Dec-2025 00:37:03 UTC] Usuario autenticado: 
+[29-Dec-2025 00:37:03 UTC] Mensaje recibido: quiero un turno
+[29-Dec-2025 00:37:03 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:37:03 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:37:03 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php:127
+Stack trace:
+#0 [internal function]: GeminiService->{closure}()
+#1 C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php(127): array_map()
+#2 C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php(57): GeminiService->buildPromptWithContext()
+#3 C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php(237): GeminiService->generate()
+#4 C:\apache\htdocs\Turnos-Ya\api\chatbot.php(56): GeminiService->procesarMensajeUsuario()
+#5 {main}
+  thrown in C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php on line 127
+[29-Dec-2025 00:37:57 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:37:57 UTC] Time: 2025-12-29 00:37:57
+[29-Dec-2025 00:37:57 UTC] PHP Warning:  Undefined array key "email" in C:\apache\htdocs\Turnos-Ya\api\chatbot.php on line 35
+[29-Dec-2025 00:37:57 UTC] Usuario autenticado: 
+[29-Dec-2025 00:37:57 UTC] Mensaje recibido: hola
+[29-Dec-2025 00:37:57 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:37:57 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:37:57 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php:127
+Stack trace:
+#0 [internal function]: GeminiService->{closure}()
+#1 C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php(127): array_map()
+#2 C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php(57): GeminiService->buildPromptWithContext()
+#3 C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php(237): GeminiService->generate()
+#4 C:\apache\htdocs\Turnos-Ya\api\chatbot.php(56): GeminiService->procesarMensajeUsuario()
+#5 {main}
+  thrown in C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php on line 127
+[29-Dec-2025 00:39:03 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:39:03 UTC] Time: 2025-12-29 00:39:03
+[29-Dec-2025 00:39:03 UTC] PHP Warning:  Undefined array key "email" in C:\apache\htdocs\Turnos-Ya\api\chatbot.php on line 35
+[29-Dec-2025 00:39:03 UTC] Usuario autenticado: 
+[29-Dec-2025 00:39:03 UTC] Mensaje recibido: hola
+[29-Dec-2025 00:39:03 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:39:03 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:39:03 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php:127
+Stack trace:
+#0 [internal function]: GeminiService->{closure}()
+#1 C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php(127): array_map()
+#2 C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php(57): GeminiService->buildPromptWithContext()
+#3 C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php(237): GeminiService->generate()
+#4 C:\apache\htdocs\Turnos-Ya\api\chatbot.php(56): GeminiService->procesarMensajeUsuario()
+#5 {main}
+  thrown in C:\apache\htdocs\Turnos-Ya\inc\gemini_service.php on line 127
+[29-Dec-2025 00:40:09 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:40:09 UTC] Time: 2025-12-29 00:40:09
+[29-Dec-2025 00:40:09 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:40:09 UTC] Mensaje recibido: hola
+[29-Dec-2025 00:40:09 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:40:09 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:40:11 UTC] Respuesta generada OK
+[29-Dec-2025 00:40:27 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:40:27 UTC] Time: 2025-12-29 00:40:27
+[29-Dec-2025 00:40:27 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:40:27 UTC] Mensaje recibido: puedes darme un turno para mañana?
+[29-Dec-2025 00:40:27 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:40:27 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:40:30 UTC] Respuesta generada OK
+[29-Dec-2025 00:40:46 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:40:46 UTC] Time: 2025-12-29 00:40:46
+[29-Dec-2025 00:40:46 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:40:46 UTC] Mensaje recibido: corte de cabello a las 15hs
+[29-Dec-2025 00:40:46 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:40:46 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:40:50 UTC] Respuesta generada OK
+[29-Dec-2025 00:41:11 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:41:11 UTC] Time: 2025-12-29 00:41:11
+[29-Dec-2025 00:41:11 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:41:11 UTC] Mensaje recibido: no, puede ser el 31?
+[29-Dec-2025 00:41:11 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:41:11 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:41:13 UTC] Respuesta generada OK
+[29-Dec-2025 00:41:43 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:41:43 UTC] Time: 2025-12-29 00:41:43
+[29-Dec-2025 00:41:43 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:41:43 UTC] Mensaje recibido: por la tarde puedo solamente. que dia tienes disponible?
+[29-Dec-2025 00:41:43 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:41:43 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:41:47 UTC] Respuesta generada OK
+[29-Dec-2025 00:42:01 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:42:01 UTC] Time: 2025-12-29 00:42:01
+[29-Dec-2025 00:42:01 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:42:01 UTC] Mensaje recibido: Quiero reservar un turno para mañana
+[29-Dec-2025 00:42:01 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:42:01 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:42:06 UTC] Respuesta generada OK
+[29-Dec-2025 00:43:13 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:43:13 UTC] Time: 2025-12-29 00:43:13
+[29-Dec-2025 00:43:13 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:43:13 UTC] Mensaje recibido: hola ! puedo cancelar un turno?
+[29-Dec-2025 00:43:13 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:43:13 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:43:19 UTC] Respuesta generada OK
+[29-Dec-2025 00:43:50 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:43:50 UTC] Time: 2025-12-29 00:43:50
+[29-Dec-2025 00:43:50 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:43:50 UTC] Mensaje recibido: dia 30 corte de cabello no recuerdo la hora, quiza 16:00
+[29-Dec-2025 00:43:50 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:43:50 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:43:55 UTC] Respuesta generada OK
+[29-Dec-2025 00:44:12 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:44:12 UTC] Time: 2025-12-29 00:44:12
+[29-Dec-2025 00:44:12 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:44:12 UTC] Mensaje recibido: Quiero reservar un turno para mañana
+[29-Dec-2025 00:44:12 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:44:12 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:44:14 UTC] Respuesta generada OK
+[29-Dec-2025 00:44:14 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:44:14 UTC] Time: 2025-12-29 00:44:14
+[29-Dec-2025 00:44:14 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:44:14 UTC] Mensaje recibido: ¿Qué servicios ofrecen?
+[29-Dec-2025 00:44:14 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:44:14 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:44:16 UTC] Respuesta generada OK
+[29-Dec-2025 00:44:16 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:44:16 UTC] Time: 2025-12-29 00:44:16
+[29-Dec-2025 00:44:16 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:44:16 UTC] Mensaje recibido: ¿Tienen disponibilidad hoy?
+[29-Dec-2025 00:44:16 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:44:16 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:44:19 UTC] Respuesta generada OK
+[29-Dec-2025 00:44:22 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:44:22 UTC] Time: 2025-12-29 00:44:22
+[29-Dec-2025 00:44:22 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:44:22 UTC] Mensaje recibido: ¿Cuáles son los precios?
+[29-Dec-2025 00:44:22 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:44:22 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:44:26 UTC] Respuesta generada OK
+[29-Dec-2025 00:46:54 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:46:54 UTC] Time: 2025-12-29 00:46:54
+[29-Dec-2025 00:46:54 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:46:54 UTC] Mensaje recibido: hola dia 1/1 a las 10 hs puedo reservar para corte de cabello'
+[29-Dec-2025 00:46:54 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:46:54 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:47:05 UTC] Respuesta generada OK
+[29-Dec-2025 00:47:27 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:47:27 UTC] Time: 2025-12-29 00:47:27
+[29-Dec-2025 00:47:27 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:47:27 UTC] Mensaje recibido: sin problemas con la persona, quien esta disponible?
+[29-Dec-2025 00:47:27 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:47:27 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:47:36 UTC] Respuesta generada OK
+[29-Dec-2025 00:47:52 UTC] === Chatbot API Called ===
+[29-Dec-2025 00:47:52 UTC] Time: 2025-12-29 00:47:52
+[29-Dec-2025 00:47:52 UTC] Usuario autenticado: Juan Pérez
+[29-Dec-2025 00:47:52 UTC] Mensaje recibido: confirmado. gracias!
+[29-Dec-2025 00:47:52 UTC] Instanciando GeminiService...
+[29-Dec-2025 00:47:52 UTC] Procesando mensaje para usuario ID: 6
+[29-Dec-2025 00:47:54 UTC] Respuesta generada OK
+[03-Jan-2026 18:55:53 UTC] === Chatbot API Called ===
+[03-Jan-2026 18:55:53 UTC] Time: 2026-01-03 18:55:53
+[03-Jan-2026 18:55:53 UTC] Usuario autenticado: Juan Pérez
+[03-Jan-2026 18:55:53 UTC] Mensaje recibido: hola que turnos tienes disponibles para hoy?
+[03-Jan-2026 18:55:53 UTC] Instanciando GeminiService...
+[03-Jan-2026 18:55:53 UTC] Procesando mensaje para usuario ID: 6
+[03-Jan-2026 18:55:57 UTC] Respuesta generada OK
+[03-Jan-2026 18:56:30 UTC] === Chatbot API Called ===
+[03-Jan-2026 18:56:30 UTC] Time: 2026-01-03 18:56:30
+[03-Jan-2026 18:56:30 UTC] Usuario autenticado: Juan Pérez
+[03-Jan-2026 18:56:30 UTC] Mensaje recibido: son las 16:00hs no puedo tomar esos que me indicas
+[03-Jan-2026 18:56:30 UTC] Instanciando GeminiService...
+[03-Jan-2026 18:56:30 UTC] Procesando mensaje para usuario ID: 6
+[03-Jan-2026 18:56:34 UTC] Respuesta generada OK
+[03-Jan-2026 18:57:25 UTC] === Chatbot API Called ===
+[03-Jan-2026 18:57:25 UTC] Time: 2026-01-03 18:57:25
+[03-Jan-2026 18:57:25 UTC] Usuario autenticado: Juan Pérez
+[03-Jan-2026 18:57:25 UTC] Mensaje recibido: excelente a las 11 para corte de cabello, tienes algun servicio para barba?
+[03-Jan-2026 18:57:25 UTC] Instanciando GeminiService...
+[03-Jan-2026 18:57:25 UTC] Procesando mensaje para usuario ID: 6
+[03-Jan-2026 18:57:37 UTC] Respuesta generada OK
+[03-Jan-2026 18:58:32 UTC] === Chatbot API Called ===
+[03-Jan-2026 18:58:32 UTC] Time: 2026-01-03 18:58:32
+[03-Jan-2026 18:58:32 UTC] Usuario autenticado: Juan Pérez
+[03-Jan-2026 18:58:32 UTC] Mensaje recibido: ok podemos cancelar ese y anotarme con el segundo? que colaborador me atenderia?
+[03-Jan-2026 18:58:32 UTC] Instanciando GeminiService...
+[03-Jan-2026 18:58:32 UTC] Procesando mensaje para usuario ID: 6
+[03-Jan-2026 18:58:38 UTC] Respuesta generada OK
+[03-Jan-2026 18:58:54 UTC] === Chatbot API Called ===
+[03-Jan-2026 18:58:54 UTC] Time: 2026-01-03 18:58:54
+[03-Jan-2026 18:58:54 UTC] Usuario autenticado: Juan Pérez
+[03-Jan-2026 18:58:54 UTC] Mensaje recibido: gracias!
+[03-Jan-2026 18:58:54 UTC] Instanciando GeminiService...
+[03-Jan-2026 18:58:54 UTC] Procesando mensaje para usuario ID: 6
+[03-Jan-2026 18:58:57 UTC] Respuesta generada OK
+[03-Jan-2026 18:59:24 UTC] === Chatbot API Called ===
+[03-Jan-2026 18:59:24 UTC] Time: 2026-01-03 18:59:24
+[03-Jan-2026 18:59:24 UTC] Usuario autenticado: Juan Pérez
+[03-Jan-2026 18:59:24 UTC] Mensaje recibido: si que dias de la semana trabajan?
+[03-Jan-2026 18:59:24 UTC] Instanciando GeminiService...
+[03-Jan-2026 18:59:24 UTC] Procesando mensaje para usuario ID: 6
+[03-Jan-2026 18:59:30 UTC] Respuesta generada OK
+[03-Jan-2026 18:59:44 UTC] === Chatbot API Called ===
+[03-Jan-2026 18:59:44 UTC] Time: 2026-01-03 18:59:44
+[03-Jan-2026 18:59:44 UTC] Usuario autenticado: Juan Pérez
+[03-Jan-2026 18:59:44 UTC] Mensaje recibido: ok y sabados y domingos?
+[03-Jan-2026 18:59:44 UTC] Instanciando GeminiService...
+[03-Jan-2026 18:59:44 UTC] Procesando mensaje para usuario ID: 6
+[03-Jan-2026 18:59:50 UTC] Respuesta generada OK
+[03-Jan-2026 19:00:00 UTC] === Chatbot API Called ===
+[03-Jan-2026 19:00:00 UTC] Time: 2026-01-03 19:00:00
+[03-Jan-2026 19:00:00 UTC] Usuario autenticado: Juan Pérez
+[03-Jan-2026 19:00:00 UTC] Mensaje recibido: y dias feriados?
+[03-Jan-2026 19:00:00 UTC] Instanciando GeminiService...
+[03-Jan-2026 19:00:00 UTC] Procesando mensaje para usuario ID: 6
+[03-Jan-2026 19:00:06 UTC] Respuesta generada OK
+[03-Jan-2026 19:00:37 UTC] === Chatbot API Called ===
+[03-Jan-2026 19:00:37 UTC] Time: 2026-01-03 19:00:37
+[03-Jan-2026 19:00:37 UTC] Usuario autenticado: Juan Pérez
+[03-Jan-2026 19:00:37 UTC] Mensaje recibido: no gracias, para terminar, que hora es ahora. me puedes indicar?
+[03-Jan-2026 19:00:37 UTC] Instanciando GeminiService...
+[03-Jan-2026 19:00:37 UTC] Procesando mensaje para usuario ID: 6
+[03-Jan-2026 19:00:40 UTC] Respuesta generada OK
+[03-Jan-2026 22:07:12 UTC] === Chatbot API Called ===
+[03-Jan-2026 22:07:12 UTC] Time: 2026-01-03 22:07:12
+[03-Jan-2026 22:07:12 UTC] Usuario autenticado: Administrador
+[03-Jan-2026 22:07:12 UTC] Mensaje recibido: que dias de la semana tienes turnos disponible?
+[03-Jan-2026 22:07:12 UTC] Instanciando GeminiService...
+[03-Jan-2026 22:07:12 UTC] Procesando mensaje para usuario ID: 1
+[03-Jan-2026 22:07:16 UTC] Respuesta generada OK
+[03-Jan-2026 22:07:32 UTC] === Chatbot API Called ===
+[03-Jan-2026 22:07:32 UTC] Time: 2026-01-03 22:07:32
+[03-Jan-2026 22:07:32 UTC] Usuario autenticado: Administrador
+[03-Jan-2026 22:07:32 UTC] Mensaje recibido: domingo trabajas?
+[03-Jan-2026 22:07:32 UTC] Instanciando GeminiService...
+[03-Jan-2026 22:07:32 UTC] Procesando mensaje para usuario ID: 1
+[03-Jan-2026 22:07:35 UTC] Respuesta generada OK

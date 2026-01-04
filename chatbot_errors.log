@@ -1,0 +1,488 @@
+[04-Jan-2026 12:05:44 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 4
+[04-Jan-2026 12:05:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 18
+[04-Jan-2026 12:05:44 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:05:44 UTC] Time: 2026-01-04 12:05:44
+[04-Jan-2026 12:05:44 UTC] Usuario autenticado: cliente@test.com
+[04-Jan-2026 12:05:44 UTC] Mensaje recibido: Hola
+[04-Jan-2026 12:05:44 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:05:44 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:05:44 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:05:51 UTC] Conversación guardada en historial
+[04-Jan-2026 12:05:51 UTC] Respuesta generada OK
+[04-Jan-2026 12:05:51 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\test\debug_api.php on line 29
+[04-Jan-2026 12:16:15 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 4
+[04-Jan-2026 12:16:15 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 7
+[04-Jan-2026 12:16:15 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 8
+[04-Jan-2026 12:16:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 18
+[04-Jan-2026 12:16:15 UTC] PHP Warning:  Undefined array key "REMOTE_ADDR" in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 21
+[04-Jan-2026 12:16:15 UTC] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 22
+[04-Jan-2026 12:16:15 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:16:15 UTC] Time: 2026-01-04 12:16:15
+[04-Jan-2026 12:16:15 UTC] Usuario autenticado: cliente@test.com
+[04-Jan-2026 12:16:15 UTC] Mensaje recibido: Hola
+[04-Jan-2026 12:16:15 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:16:15 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:16:15 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:16:16 UTC] Error en Gemini generate: API Error: HTTP 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[04-Jan-2026 12:16:16 UTC] Conversación guardada en historial
+[04-Jan-2026 12:16:16 UTC] Respuesta generada OK
+[04-Jan-2026 12:16:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\test\debug_api.php on line 29
+[04-Jan-2026 12:19:38 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 6
+[04-Jan-2026 12:19:38 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 7
+[04-Jan-2026 12:19:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 12
+[04-Jan-2026 12:19:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 18
+[04-Jan-2026 12:19:38 UTC] PHP Warning:  Undefined array key "REMOTE_ADDR" in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 21
+[04-Jan-2026 12:19:38 UTC] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 22
+[04-Jan-2026 12:19:38 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:19:38 UTC] Time: 2026-01-04 12:19:38
+[04-Jan-2026 12:19:38 UTC] Usuario autenticado: cliente@test.com
+[04-Jan-2026 12:19:38 UTC] Mensaje recibido: Hola
+[04-Jan-2026 12:19:38 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:19:38 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:19:38 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:19:39 UTC] Error en Gemini generate: API Error: HTTP 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[04-Jan-2026 12:19:39 UTC] Conversación guardada en historial
+[04-Jan-2026 12:19:39 UTC] Respuesta generada OK
+[04-Jan-2026 12:19:39 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\test\debug_api.php on line 29
+[04-Jan-2026 12:36:35 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 6
+[04-Jan-2026 12:36:35 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 7
+[04-Jan-2026 12:36:35 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 12
+[04-Jan-2026 12:36:35 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 18
+[04-Jan-2026 12:36:35 UTC] PHP Warning:  Undefined array key "REMOTE_ADDR" in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 21
+[04-Jan-2026 12:36:35 UTC] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 22
+[04-Jan-2026 12:36:35 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:36:35 UTC] Time: 2026-01-04 12:36:35
+[04-Jan-2026 12:36:35 UTC] Usuario autenticado: cliente@test.com
+[04-Jan-2026 12:36:35 UTC] Mensaje recibido: Hola
+[04-Jan-2026 12:36:35 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:36:35 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:36:35 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:36:36 UTC] Error en Gemini generate: API Error: HTTP 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[04-Jan-2026 12:36:36 UTC] Conversación guardada en historial
+[04-Jan-2026 12:36:36 UTC] Respuesta generada OK
+[04-Jan-2026 12:36:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\test\debug_api.php on line 29
+[04-Jan-2026 12:37:46 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:37:46 UTC] Time: 2026-01-04 12:37:46
+[04-Jan-2026 12:37:46 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:37:46 UTC] Mensaje recibido: hola trabajas los feriados?
+[04-Jan-2026 12:37:46 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:37:46 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:37:46 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:37:47 UTC] Error en Gemini generate: API Error: HTTP 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[04-Jan-2026 12:37:47 UTC] Conversación guardada en historial
+[04-Jan-2026 12:37:47 UTC] Respuesta generada OK
+[04-Jan-2026 12:38:01 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:38:01 UTC] Time: 2026-01-04 12:38:01
+[04-Jan-2026 12:38:01 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:38:01 UTC] Mensaje recibido: puedo solicitar un turno para hoy?
+[04-Jan-2026 12:38:01 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:38:01 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:38:01 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:38:02 UTC] Error en Gemini generate: API Error: HTTP 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[04-Jan-2026 12:38:02 UTC] Conversación guardada en historial
+[04-Jan-2026 12:38:02 UTC] Respuesta generada OK
+[04-Jan-2026 12:41:37 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 6
+[04-Jan-2026 12:41:38 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 7
+[04-Jan-2026 12:41:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 12
+[04-Jan-2026 12:41:38 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 18
+[04-Jan-2026 12:41:38 UTC] PHP Warning:  Undefined array key "REMOTE_ADDR" in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 21
+[04-Jan-2026 12:41:38 UTC] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 22
+[04-Jan-2026 12:41:38 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:41:38 UTC] Time: 2026-01-04 12:41:38
+[04-Jan-2026 12:41:38 UTC] Usuario autenticado: cliente@test.com
+[04-Jan-2026 12:41:38 UTC] Mensaje recibido: Hola
+[04-Jan-2026 12:41:38 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:41:38 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:41:38 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:41:46 UTC] Conversación guardada en historial
+[04-Jan-2026 12:41:46 UTC] Respuesta generada OK
+[04-Jan-2026 12:41:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\test\debug_api.php on line 29
+[04-Jan-2026 12:45:36 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:45:36 UTC] Time: 2026-01-04 12:45:36
+[04-Jan-2026 12:45:36 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:45:36 UTC] Mensaje recibido: hola
+[04-Jan-2026 12:45:36 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:45:36 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:45:36 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:45:46 UTC] Conversación guardada en historial
+[04-Jan-2026 12:45:46 UTC] Respuesta generada OK
+[04-Jan-2026 12:46:11 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:46:11 UTC] Time: 2026-01-04 12:46:11
+[04-Jan-2026 12:46:11 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:46:11 UTC] Mensaje recibido: consulta: trabajas los feriados? o domnigos?
+[04-Jan-2026 12:46:11 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:46:11 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:46:11 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:46:14 UTC] Conversación guardada en historial
+[04-Jan-2026 12:46:14 UTC] Respuesta generada OK
+[04-Jan-2026 12:46:26 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:46:26 UTC] Time: 2026-01-04 12:46:26
+[04-Jan-2026 12:46:26 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:46:26 UTC] Mensaje recibido: tienes turnos para mañana lunes'
+[04-Jan-2026 12:46:26 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:46:26 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:46:26 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:46:32 UTC] Conversación guardada en historial
+[04-Jan-2026 12:46:32 UTC] Respuesta generada OK
+[04-Jan-2026 12:47:37 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:47:37 UTC] Time: 2026-01-04 12:47:37
+[04-Jan-2026 12:47:37 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:47:37 UTC] Mensaje recibido: me reservas un turno para el martes , quiero corte de cabello y tienes algun servicio de tratamiento capilar?
+[04-Jan-2026 12:47:37 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:47:37 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:47:37 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:47:44 UTC] Conversación guardada en historial
+[04-Jan-2026 12:47:44 UTC] Respuesta generada OK
+[04-Jan-2026 12:48:12 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:48:12 UTC] Time: 2026-01-04 12:48:12
+[04-Jan-2026 12:48:12 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:48:12 UTC] Mensaje recibido: despues de las 15hs que me puedes ofrecer?
+[04-Jan-2026 12:48:12 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:48:12 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:48:12 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:48:22 UTC] Conversación guardada en historial
+[04-Jan-2026 12:48:22 UTC] Respuesta generada OK
+[04-Jan-2026 12:48:42 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:48:42 UTC] Time: 2026-01-04 12:48:42
+[04-Jan-2026 12:48:42 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:48:42 UTC] Mensaje recibido: por la tarde no trabajas?
+[04-Jan-2026 12:48:42 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:48:42 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:48:42 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:48:52 UTC] Conversación guardada en historial
+[04-Jan-2026 12:48:52 UTC] Respuesta generada OK
+[04-Jan-2026 12:49:11 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:49:11 UTC] Time: 2026-01-04 12:49:11
+[04-Jan-2026 12:49:11 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:49:11 UTC] Mensaje recibido: que precios tienen ambos?
+[04-Jan-2026 12:49:11 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:49:11 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:49:11 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:49:13 UTC] Conversación guardada en historial
+[04-Jan-2026 12:49:13 UTC] Respuesta generada OK
+[04-Jan-2026 12:49:26 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:49:26 UTC] Time: 2026-01-04 12:49:26
+[04-Jan-2026 12:49:26 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:49:26 UTC] Mensaje recibido: ok reservamelo
+[04-Jan-2026 12:49:26 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:49:26 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:49:26 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:49:36 UTC] Conversación guardada en historial
+[04-Jan-2026 12:49:36 UTC] Respuesta generada OK
+[04-Jan-2026 12:50:02 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:50:02 UTC] Time: 2026-01-04 12:50:02
+[04-Jan-2026 12:50:02 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:50:02 UTC] Mensaje recibido: para las 10 reservamelo
+[04-Jan-2026 12:50:02 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:50:02 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:50:02 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:50:12 UTC] Conversación guardada en historial
+[04-Jan-2026 12:50:12 UTC] Respuesta generada OK
+[04-Jan-2026 12:50:29 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:50:29 UTC] Time: 2026-01-04 12:50:29
+[04-Jan-2026 12:50:29 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:50:29 UTC] Mensaje recibido: gracias . lo guardaste a nombre de quien?
+[04-Jan-2026 12:50:29 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:50:29 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:50:29 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:50:40 UTC] Conversación guardada en historial
+[04-Jan-2026 12:50:40 UTC] Respuesta generada OK
+[04-Jan-2026 12:50:52 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:50:52 UTC] Time: 2026-01-04 12:50:52
+[04-Jan-2026 12:50:52 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:50:52 UTC] Mensaje recibido: confirmalo
+[04-Jan-2026 12:50:52 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:50:52 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:50:52 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:51:03 UTC] Conversación guardada en historial
+[04-Jan-2026 12:51:03 UTC] Respuesta generada OK
+[04-Jan-2026 12:53:54 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:53:54 UTC] Time: 2026-01-04 12:53:54
+[04-Jan-2026 12:53:54 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:53:54 UTC] Mensaje recibido: consulta! tienes turnos reservados para mi esta semana o la proxima'
+[04-Jan-2026 12:53:54 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:53:54 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:53:54 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:54:02 UTC] Conversación guardada en historial
+[04-Jan-2026 12:54:02 UTC] Respuesta generada OK
+[04-Jan-2026 12:56:00 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:56:00 UTC] Time: 2026-01-04 12:56:00
+[04-Jan-2026 12:56:00 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:56:00 UTC] Mensaje recibido: trabajas por la tarde? domingo , lunes o martes?
+[04-Jan-2026 12:56:00 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:56:00 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:56:00 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:56:03 UTC] Conversación guardada en historial
+[04-Jan-2026 12:56:03 UTC] Respuesta generada OK
+[04-Jan-2026 12:56:38 UTC] === Chatbot API Called ===
+[04-Jan-2026 12:56:38 UTC] Time: 2026-01-04 12:56:38
+[04-Jan-2026 12:56:38 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 12:56:38 UTC] Mensaje recibido: me puedes dar un turno para las 16.00hs el martes para un corte de pelo?
+[04-Jan-2026 12:56:38 UTC] Instanciando GeminiService...
+[04-Jan-2026 12:56:38 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 12:56:38 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 12:56:45 UTC] Conversación guardada en historial
+[04-Jan-2026 12:56:45 UTC] Respuesta generada OK
+[04-Jan-2026 13:00:46 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 6
+[04-Jan-2026 13:00:46 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 7
+[04-Jan-2026 13:00:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 12
+[04-Jan-2026 13:00:46 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 18
+[04-Jan-2026 13:00:46 UTC] PHP Warning:  Undefined array key "REMOTE_ADDR" in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 21
+[04-Jan-2026 13:00:46 UTC] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 22
+[04-Jan-2026 13:00:46 UTC] === Chatbot API Called ===
+[04-Jan-2026 13:00:46 UTC] Time: 2026-01-04 13:00:46
+[04-Jan-2026 13:00:46 UTC] Usuario autenticado: cliente@test.com
+[04-Jan-2026 13:00:46 UTC] Mensaje recibido: Hola
+[04-Jan-2026 13:00:46 UTC] Instanciando GeminiService...
+[04-Jan-2026 13:00:46 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 13:00:46 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 13:00:47 UTC] Error en Gemini generate: API Error: HTTP 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[04-Jan-2026 13:00:47 UTC] Conversación guardada en historial
+[04-Jan-2026 13:00:47 UTC] Respuesta generada OK
+[04-Jan-2026 13:00:47 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\test\debug_api.php on line 29
+[04-Jan-2026 13:04:36 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 6
+[04-Jan-2026 13:04:36 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 7
+[04-Jan-2026 13:04:36 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 12
+[04-Jan-2026 13:04:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 18
+[04-Jan-2026 13:04:36 UTC] PHP Warning:  Undefined array key "REMOTE_ADDR" in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 21
+[04-Jan-2026 13:04:36 UTC] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 22
+[04-Jan-2026 13:04:36 UTC] === Chatbot API Called ===
+[04-Jan-2026 13:04:36 UTC] Time: 2026-01-04 13:04:36
+[04-Jan-2026 13:04:36 UTC] Usuario autenticado: cliente@test.com
+[04-Jan-2026 13:04:36 UTC] Mensaje recibido: Hola
+[04-Jan-2026 13:04:36 UTC] Instanciando GeminiService...
+[04-Jan-2026 13:04:36 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 13:04:36 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 13:04:36 UTC] Error en Gemini generate: API Error: HTTP 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[04-Jan-2026 13:04:36 UTC] Conversación guardada en historial
+[04-Jan-2026 13:04:36 UTC] Respuesta generada OK
+[04-Jan-2026 13:04:36 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\test\debug_api.php on line 29
+[04-Jan-2026 13:10:58 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 6
+[04-Jan-2026 13:10:58 UTC] PHP Warning:  ini_set(): Session ini settings cannot be changed after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 7
+[04-Jan-2026 13:10:58 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in C:\apache\htdocs\Turnos-Ya-Single\inc\auth.php on line 12
+[04-Jan-2026 13:10:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 18
+[04-Jan-2026 13:10:58 UTC] PHP Warning:  Undefined array key "REMOTE_ADDR" in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 21
+[04-Jan-2026 13:10:58 UTC] PHP Deprecated:  md5(): Passing null to parameter #1 ($string) of type string is deprecated in C:\apache\htdocs\Turnos-Ya-Single\api\chatbot.php on line 22
+[04-Jan-2026 13:10:58 UTC] === Chatbot API Called ===
+[04-Jan-2026 13:10:59 UTC] Time: 2026-01-04 13:10:59
+[04-Jan-2026 13:10:59 UTC] Usuario autenticado: cliente@test.com
+[04-Jan-2026 13:10:59 UTC] Mensaje recibido: Hola
+[04-Jan-2026 13:10:59 UTC] Instanciando GeminiService...
+[04-Jan-2026 13:10:59 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 13:10:59 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 13:11:00 UTC] Error en Gemini generate: API Error: HTTP 400 - {
+  "error": {
+    "code": 400,
+    "message": "API key not valid. Please pass a valid API key.",
+    "status": "INVALID_ARGUMENT",
+    "details": [
+      {
+        "@type": "type.googleapis.com/google.rpc.ErrorInfo",
+        "reason": "API_KEY_INVALID",
+        "domain": "googleapis.com",
+        "metadata": {
+          "service": "generativelanguage.googleapis.com"
+        }
+      },
+      {
+        "@type": "type.googleapis.com/google.rpc.LocalizedMessage",
+        "locale": "en-US",
+        "message": "API key not valid. Please pass a valid API key."
+      }
+    ]
+  }
+}
+
+[04-Jan-2026 13:11:00 UTC] Conversación guardada en historial
+[04-Jan-2026 13:11:00 UTC] Respuesta generada OK
+[04-Jan-2026 13:11:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\apache\htdocs\Turnos-Ya-Single\test\run_all_tests.php:7) in C:\apache\htdocs\Turnos-Ya-Single\test\debug_api.php on line 29
+[04-Jan-2026 13:17:46 UTC] === Chatbot API Called ===
+[04-Jan-2026 13:17:46 UTC] Time: 2026-01-04 13:17:46
+[04-Jan-2026 13:17:46 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 13:17:46 UTC] Mensaje recibido: hola tienes turno para lunes a las 16:00hs?
+[04-Jan-2026 13:17:46 UTC] Instanciando GeminiService...
+[04-Jan-2026 13:17:46 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 13:17:46 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 13:17:56 UTC] Conversación guardada en historial
+[04-Jan-2026 13:17:56 UTC] Respuesta generada OK
+[04-Jan-2026 13:18:17 UTC] === Chatbot API Called ===
+[04-Jan-2026 13:18:17 UTC] Time: 2026-01-04 13:18:17
+[04-Jan-2026 13:18:17 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 13:18:17 UTC] Mensaje recibido: excelente! martes en ese horario?
+[04-Jan-2026 13:18:17 UTC] Instanciando GeminiService...
+[04-Jan-2026 13:18:17 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 13:18:17 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 13:18:21 UTC] Conversación guardada en historial
+[04-Jan-2026 13:18:21 UTC] Respuesta generada OK
+[04-Jan-2026 13:19:11 UTC] === Chatbot API Called ===
+[04-Jan-2026 13:19:11 UTC] Time: 2026-01-04 13:19:11
+[04-Jan-2026 13:19:11 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 13:19:11 UTC] Mensaje recibido: luego de las 12:00 tienes algo martes o en esa semana?
+[04-Jan-2026 13:19:11 UTC] Instanciando GeminiService...
+[04-Jan-2026 13:19:11 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 13:19:11 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 13:19:20 UTC] Conversación guardada en historial
+[04-Jan-2026 13:19:20 UTC] Respuesta generada OK
+[04-Jan-2026 13:22:27 UTC] === Chatbot API Called ===
+[04-Jan-2026 13:22:27 UTC] Time: 2026-01-04 13:22:27
+[04-Jan-2026 13:22:27 UTC] Usuario autenticado: Juan Pérez
+[04-Jan-2026 13:22:27 UTC] Mensaje recibido: Quiero reservar un turno para mañana
+[04-Jan-2026 13:22:27 UTC] Instanciando GeminiService...
+[04-Jan-2026 13:22:27 UTC] Procesando mensaje para usuario ID: 6
+[04-Jan-2026 13:22:27 UTC] Error obteniendo historial de chat: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''20'' at line 5
+[04-Jan-2026 13:22:37 UTC] Conversación guardada en historial
+[04-Jan-2026 13:22:37 UTC] Respuesta generada OK
